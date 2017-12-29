@@ -1,0 +1,19 @@
+Reference,Quantity,Name,Description,Package,Digi-Key Part,Value,Tol.,P_Max,Manufacturer,Manufacturer Part,Newark Part,Mouser Part,Cost,Usage,Datasheet,Picture,Voltage,Capacity,R_Int,T_Max,V_Max,R_Off,R_On,T_Trip,Temp_Nom
+"U1",  1, LT1304CS8-3.3,Voltage Regulator,S08, LT1304CS8-3.3#PBF-ND
+"C1,C2",  2,100mfd,Capacitor,C2917,478-1777-1-ND
+"R3",  1,10K,Resistor,R1206,311-10KERCT-ND,..,..,..,..,..,..,..,..
+"R1,R2",  2,2.2K,Resistor,R1206,311-2.2KERCT-ND,..,..,..,..,..,..,..,..
+"L1",  1,22mh,Coil,CD54,308-2271-1-ND
+"R4",  1,2k,Resistor,R1206,311-2.00KFRCT-ND ,..,..,..,..,..,..,..,..
+"D3",  1,30v 2a,Schotty Diode,DO-214AA,MBRS130LT3GOSCT-ND
+"C5,C6",  2,4.7uf,Capacitor,C1206,478-8176-1-ND
+"R5",  1,470,Resistor,R1206,311-470FRCT-ND ,,..,..,..,..,..,..,..
+"C4",  1,8.2pf,Capacitor,C1206,311-1222-1-ND,8.2pf
+"U3",  1,A2235-H,A2235-H GPS,A2235-H,1530-1011-1-ND
+"B1",  1,BATTERY,Single-cell battery,KS1043,36-1043-ND,,,,..,..,..,..,,..,..,..,..,..,..,..
+"D2",  1,LED,Light Emitting Diode,R1206,732-5032-1-ND
+"U4",  1,MCP7383x,Li-Polymer Charge Management Controller,MCP7383x,MCP73832T-2ACI/OTCT-ND
+"Z1",  1,USBB,Mini USB B Type Receptacle,10118192-0001LF,609-1039-ND,,,,FCI,61729-0010BLF ,..,..,1.04,..,..
+"V1",  1,VARISTOR,Varistor,C1206,732-2549-1-ND,,,,,..,,,,,,,,,,,18v,,,,
+"U2",  1,XBP9B-DMWT-002,XBee,XBee,602-1301-ND
+"x1,x2",  2,Xbee Header,CONN RECEPT 2MM SINGLE STR 10POS,package name for PCB layout,S5751-10-ND
