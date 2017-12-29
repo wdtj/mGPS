@@ -2442,13 +2442,13 @@ F$E(%$9&quot;0*HB A%1!!&quot;2DBO\/HV8G^KTF25(     245.1*Y&quot;8((
 			<FIELD type='1' description='Ref' value='V1' show='1' pos='-2.00000,-12.60000'/>
 			<FIELD type='0' description='Name' value='VARISTOR' show='0' pos='1.00000,-12.00000'/>
 			<FIELD type='1' description='Package' value='C1206' show='0' pos='1.00000,-7.20000'/>
-			<FIELD type='1' description='V_Max' value='18v' show='1' pos='-2.00000,-9.80000'/>
+			<FIELD type='1' description='V_Max' value='5.5v' show='1' pos='-2.00000,-9.80000'/>
 			<FIELD type='1' description='R_Off' value='' show='0' pos='1.00000,-2.40000'/>
 			<FIELD type='1' description='R_On' value='' show='0' pos='1.00000,0.00000'/>
 			<FIELD type='1' description='T_Trip' value='' show='0' pos='1.00000,2.40000'/>
 			<FIELD type='1' description='Temp_Nom' value='' show='0' pos='1.00000,4.80000'/>
 			<FIELD type='1' description='Manufacturer Part' value='..' show='0' pos='1.00000,7.20000'/>
-			<FIELD type='1' description='Digi-Key Part' value='732-2549-1-ND' show='0' pos='1.00000,9.60000'/>
+			<FIELD type='1' description='Digi-Key Part' value='732-2548-1-ND' show='0' pos='1.00000,9.60000'/>
 			<FIELD type='1' description='Newark Part' value='' show='0' pos='1.00000,12.00000'/>
 			<FIELD type='1' description='Mouser Part' value='' show='0' pos='1.00000,14.40000'/>
 			<FIELD type='1' description='Cost' value='' show='0' pos='1.00000,16.80000'/>
