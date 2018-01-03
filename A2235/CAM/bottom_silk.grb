@@ -46,13 +46,8 @@ G04 Draw part R3*
 G04 Draw part R1*
 G04 Draw part R2*
 G04 Draw part V1*
-G04 Draw part C1*
-G04 Draw part C2*
-G04 Draw part C3*
 G04 Draw part U2*
-G04 Draw part U1*
 G04 Draw part U3*
-G04 Draw part L1*
 G04 Draw part B1*
 G04 draw part outline for part B1*
 G54D11*
@@ -114,6 +109,11 @@ G04 Draw part R5*
 G04 Draw part C6*
 G04 Draw part R4*
 G04 Draw part Z1*
+G04 Draw part U1*
+G04 Draw part L1*
+G04 Draw part C1*
+G04 Draw part C2*
+G04 Draw part D3*
 
 G04 Draw traces*
 

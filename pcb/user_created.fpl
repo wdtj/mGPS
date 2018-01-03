@@ -1,20 +1,60 @@
 <<<<<<< HEAD
-name: "DO-214AA"
+name: "SMB403A"
   units: NM
-  sel_rect: -1308100 -1723100 3998100 1723100
-  ref_text: 1270000 672500 0 0 127000
+  sel_rect: -1752600 -2044600 6172600 2044600
+  ref_text: 1270000 1105000 0 0 127000
   value_text: 2540000 2540000 0 0 254000
-  centroid: 0 1345000 0 0
-  outline_polyline: 177800 -965200 -1380200
-    next_corner: 3655200 -1380200 0
-    next_corner: 3655200 1380200 0
-    next_corner: -965200 1380200 0
+  centroid: 0 2210000 0 0
+  outline_polyline: 177800 -1409700 -1701700
+    next_corner: 5829700 -1701700 0
+    next_corner: 5829700 1701700 0
+    next_corner: -1409700 1701700 0
     close_polyline: 0
   n_pins: 2
     pin: "1" 0 0 0 270
-      top_pad: 3 1270000 1050000 1050000 0
-    pin: "2" 0 2690000 0 270
-      top_pad: 3 1270000 1050000 1050000 0
+      top_pad: 3 2159000 1371500 1371500 0
+    pin: "2" 0 4420000 0 270
+      top_pad: 3 2159000 1371500 1371500 0
+
+name: "TANT_D-2"
+author: "Ivex, Allan Wright"
+description: "Tantalum capacitor, Case size D, EIA code 7343-31"
+units: NM
+sel_rect: -3683000 -2492900 8801100 2492900
+ref_text: 1270000 3505200 2641600 0 177800
+value_text: 1270000 3500000 -4000000 0 177800
+centroid: 0 3505200 0 0
+outline_polyline: 177800 -1447800 2150000
+next_corner: 8458200 2150000 0
+next_corner: 8458200 -2150000 0
+next_corner: -1447800 -2150000 0
+close_polyline: 0
+outline_polyline: 254000 -2540000 1524000
+next_corner: -2540000 0 0
+outline_polyline: 254000 -3302000 762000
+next_corner: -1778000 762000 0
+n_pins: 2
+pin: "1" 0 0 0 0
+top_pad: 3 3022600 990600 990600 0
+pin: "2" 0 7010400 0 0
+top_pad: 3 3022600 990600 990600 0
+
+name: "DO-214AA"
+units: NM
+sel_rect: -1308100 -1723100 3998100 1723100
+ref_text: 1270000 672500 0 0 127000
+value_text: 2540000 2540000 0 0 254000
+centroid: 0 1345000 0 0
+outline_polyline: 177800 -965200 -1380200
+next_corner: 3655200 -1380200 0
+next_corner: 3655200 1380200 0
+next_corner: -965200 1380200 0
+close_polyline: 0
+n_pins: 2
+pin: "1" 0 0 0 270
+top_pad: 3 1270000 1050000 1050000 0
+pin: "2" 0 2690000 0 270
+top_pad: 3 1270000 1050000 1050000 0
 
 name: "C2917"
 units: NM
