@@ -1556,6 +1556,10 @@ F$E(%$9&quot;0*HB A%1!!&quot;2DBO\/HV8G^KTF25(     245.1*Y&quot;8((
 			<INDEX>-1</INDEX>
 			<COLOR>000000</COLOR>
 		</FILL>
+		<FILL id='1'>
+			<INDEX>0</INDEX>
+			<COLOR>000000</COLOR>
+		</FILL>
 		<SYMBOLDEF id='1'>
 			<NAME type='0'>C</NAME>
 			<REF type='0'>C?</REF>
@@ -1948,49 +1952,6 @@ F$E(%$9&quot;0*HB A%1!!&quot;2DBO\/HV8G^KTF25(     245.1*Y&quot;8((
 				</POLYGON>
 			</TinyCAD>
 		</SYMBOLDEF>
-		<SYMBOLDEF id='5'>
-			<NAME type='0'>L</NAME>
-			<REF type='0'>L?</REF>
-			<DESCRIPTION>Coil</DESCRIPTION>
-			<PPP>1</PPP>
-			<REF_POINT power='0' part='0' pos='87.00000,50.00000'/>
-			<TinyCAD>
-				<PIN pos='80.00000,50.00000' which='5' elec='4' direction='3' part='0' number='1' show='0' length='30' number_pos='0' centre_name='0'></PIN>
-				<PIN pos='87.00000,50.00000' which='5' elec='4' direction='2' part='0' number='2' show='0' length='30' number_pos='0' centre_name='0'></PIN>
-				<POLYGON pos='86.00000,50.00000' style='3' fill='0'>
-					<POINT pos='0.00000,0.00000' arc='0'/>
-					<POINT pos='1.00000,0.00000' arc='0'/>
-				</POLYGON>
-				<POLYGON pos='80.00000,50.00000' style='3' fill='0'>
-					<POINT pos='1.20000,0.00000' arc='0'/>
-					<POINT pos='0.00000,0.00000' arc='0'/>
-				</POLYGON>
-				<POLYGON pos='81.20000,48.40000' style='3' fill='0'>
-					<POINT pos='0.00000,1.60000' arc='0'/>
-					<POINT pos='0.80000,0.00000' arc='2'/>
-				</POLYGON>
-				<POLYGON pos='82.00000,48.40000' style='3' fill='0'>
-					<POINT pos='0.80000,1.60000' arc='0'/>
-					<POINT pos='0.00000,0.00000' arc='2'/>
-				</POLYGON>
-				<POLYGON pos='82.80000,48.40000' style='3' fill='0'>
-					<POINT pos='0.00000,1.60000' arc='0'/>
-					<POINT pos='0.80000,0.00000' arc='2'/>
-				</POLYGON>
-				<POLYGON pos='83.60000,48.40000' style='3' fill='0'>
-					<POINT pos='0.80000,1.60000' arc='0'/>
-					<POINT pos='0.00000,0.00000' arc='2'/>
-				</POLYGON>
-				<POLYGON pos='84.40000,48.40000' style='3' fill='0'>
-					<POINT pos='0.00000,1.60000' arc='0'/>
-					<POINT pos='0.80000,0.00000' arc='2'/>
-				</POLYGON>
-				<POLYGON pos='85.20000,48.40000' style='3' fill='0'>
-					<POINT pos='0.80000,1.60000' arc='0'/>
-					<POINT pos='0.00000,0.00000' arc='2'/>
-				</POLYGON>
-			</TinyCAD>
-		</SYMBOLDEF>
 		<SYMBOLDEF id='6'>
 			<NAME type='0'>MCP7383x</NAME>
 			<REF type='0'>U?</REF>
@@ -2318,13 +2279,30 @@ F$E(%$9&quot;0*HB A%1!!&quot;2DBO\/HV8G^KTF25(     245.1*Y&quot;8((
 			<NAME type='0'>T1</NAME>
 			<REF type='0'>T?</REF>
 			<DESCRIPTION>Transformer</DESCRIPTION>
-			<PPP>1</PPP>
-			<REF_POINT power='0' part='0' pos='28.00000,17.00000'/>
+			<PPP>2</PPP>
+			<FIELD>
+				<NAME>$$SPICE_PROLOG_PRIORITY</NAME>
+				<DEFAULT>5</DEFAULT>
+				<FT>000002</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>$$SPICE_EPILOG_PRIORITY</NAME>
+				<DEFAULT>5</DEFAULT>
+				<FT>000002</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Package</NAME>
+				<DEFAULT>package name for PCB layout</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<REF_POINT power='0' part='0' pos='31.00000,13.00000'/>
 			<TinyCAD>
-				<POLYGON pos='20.00000,14.00000' style='3' fill='0'>
-					<POINT pos='0.00000,0.00000' arc='0'/>
-					<POINT pos='8.00000,0.00000' arc='0'/>
-				</POLYGON>
 				<POLYGON pos='28.00000,11.00000' style='3' fill='0'>
 					<POINT pos='0.00000,1.00000' arc='0'/>
 					<POINT pos='0.00000,0.00000' arc='0'/>
@@ -2332,14 +2310,6 @@ F$E(%$9&quot;0*HB A%1!!&quot;2DBO\/HV8G^KTF25(     245.1*Y&quot;8((
 				<POLYGON pos='20.00000,11.00000' style='3' fill='0'>
 					<POINT pos='0.00000,1.00000' arc='0'/>
 					<POINT pos='0.00000,0.00000' arc='0'/>
-				</POLYGON>
-				<POLYGON pos='20.00000,16.00000' style='3' fill='0'>
-					<POINT pos='0.00000,0.00000' arc='0'/>
-					<POINT pos='0.00000,1.00000' arc='0'/>
-				</POLYGON>
-				<POLYGON pos='28.00000,16.00000' style='3' fill='0'>
-					<POINT pos='0.00000,0.00000' arc='0'/>
-					<POINT pos='0.00000,1.00000' arc='0'/>
 				</POLYGON>
 				<POLYGON pos='27.00000,12.00000' style='3' fill='0'>
 					<POINT pos='1.00000,0.00000' arc='0'/>
@@ -2389,54 +2359,12 @@ F$E(%$9&quot;0*HB A%1!!&quot;2DBO\/HV8G^KTF25(     245.1*Y&quot;8((
 					<POINT pos='1.00000,0.00000' arc='0'/>
 					<POINT pos='0.00000,1.00000' arc='2'/>
 				</POLYGON>
-				<POLYGON pos='20.00000,15.00000' style='3' fill='0'>
-					<POINT pos='0.00000,1.00000' arc='0'/>
-					<POINT pos='1.00000,0.00000' arc='2'/>
-				</POLYGON>
-				<POLYGON pos='20.00000,15.00000' style='3' fill='0'>
-					<POINT pos='0.00000,1.00000' arc='0'/>
-					<POINT pos='1.00000,0.00000' arc='2'/>
-				</POLYGON>
-				<POLYGON pos='21.00000,15.00000' style='3' fill='0'>
-					<POINT pos='1.00000,1.00000' arc='0'/>
-					<POINT pos='0.00000,0.00000' arc='2'/>
-				</POLYGON>
-				<POLYGON pos='23.00000,15.00000' style='3' fill='0'>
-					<POINT pos='1.00000,1.00000' arc='0'/>
-					<POINT pos='0.00000,0.00000' arc='2'/>
-				</POLYGON>
-				<POLYGON pos='22.00000,15.00000' style='3' fill='0'>
-					<POINT pos='0.00000,1.00000' arc='0'/>
-					<POINT pos='1.00000,0.00000' arc='2'/>
-				</POLYGON>
-				<POLYGON pos='22.00000,15.00000' style='3' fill='0'>
-					<POINT pos='0.00000,1.00000' arc='0'/>
-					<POINT pos='1.00000,0.00000' arc='2'/>
-				</POLYGON>
-				<POLYGON pos='24.00000,15.00000' style='3' fill='0'>
-					<POINT pos='0.00000,1.00000' arc='0'/>
-					<POINT pos='1.00000,0.00000' arc='2'/>
-				</POLYGON>
-				<POLYGON pos='24.00000,15.00000' style='3' fill='0'>
-					<POINT pos='0.00000,1.00000' arc='0'/>
-					<POINT pos='1.00000,0.00000' arc='2'/>
-				</POLYGON>
-				<POLYGON pos='25.00000,15.00000' style='3' fill='0'>
-					<POINT pos='1.00000,1.00000' arc='0'/>
-					<POINT pos='0.00000,0.00000' arc='2'/>
-				</POLYGON>
-				<POLYGON pos='27.00000,15.00000' style='3' fill='0'>
-					<POINT pos='1.00000,1.00000' arc='0'/>
-					<POINT pos='0.00000,0.00000' arc='2'/>
-				</POLYGON>
-				<POLYGON pos='26.00000,15.00000' style='3' fill='0'>
-					<POINT pos='0.00000,1.00000' arc='0'/>
-					<POINT pos='1.00000,0.00000' arc='2'/>
-				</POLYGON>
-				<POLYGON pos='26.00000,15.00000' style='3' fill='0'>
-					<POINT pos='0.00000,1.00000' arc='0'/>
-					<POINT pos='1.00000,0.00000' arc='2'/>
-				</POLYGON>
+				<PIN pos='17.00000,11.00000' which='0' elec='0' direction='3' part='0' number='1' show='3' length='15' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='31.00000,11.00000' which='0' elec='0' direction='2' part='0' number='2' show='3' length='15' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='31.00000,11.00000' which='0' elec='0' direction='2' part='1' number='3' show='3' length='15' number_pos='0' centre_name='0'></PIN>
+				<PIN pos='17.00000,11.00000' which='0' elec='0' direction='3' part='1' number='4' show='3' length='15' number_pos='0' centre_name='0'></PIN>
+				<ELLIPSE a='21.00000,9.00000' b='21.00000,10.00000' style='3' fill='0'/>
+				<ELLIPSE a='19.13942,11.91240' b='19.58565,11.48611' style='3' fill='1'/>
 			</TinyCAD>
 		</SYMBOLDEF>
 		<OPTIONS>
@@ -2489,11 +2417,13 @@ F$E(%$9&quot;0*HB A%1!!&quot;2DBO\/HV8G^KTF25(     245.1*Y&quot;8((
 			<FIELD type='1' description='Package' value='S08' show='0' pos='0.00000,0.00000'/>
 			<FIELD type='1' description='Digi-Key Part' value=' LT1304CS8-3.3#PBF-ND' show='0' pos='0.00000,0.00000'/>
 		</SYMBOL>
-		<SYMBOL id='5' pos='210.00000,62.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
-			<FIELD type='0' description='Ref' value='L1' show='1' pos='-6.00000,-2.60000'/>
+		<SYMBOL id='13' pos='211.00000,64.00000' part='1' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='0' description='Ref' value='T1' show='1' pos='-6.00000,-2.60000'/>
 			<FIELD type='0' description='Name' value='22mh' show='1' pos='-6.00000,-5.00000'/>
-			<FIELD type='3' description='Package' value='CD54' show='0' pos='1.00000,4.80000'/>
+			<FIELD type='1' description='Package' value='CD54' show='0' pos='1.00000,4.80000'/>
 			<FIELD type='3' description='Digi-Key Part' value='308-2271-1-ND' show='0' pos='1.00000,7.20000'/>
+			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
 		</SYMBOL>
 		<POWER pos='242.00000,58.00000' which='1' direction='0'>V33</POWER>
 		<WIRE a='186.00000,98.00000' b='215.00000,98.00000'/>
@@ -2657,7 +2587,7 @@ F$E(%$9&quot;0*HB A%1!!&quot;2DBO\/HV8G^KTF25(     245.1*Y&quot;8((
 		<WIRE a='224.00000,80.00000' b='242.00000,80.00000'/>
 		<JUNCTION pos='242.00000,80.00000'/>
 		<WIRE a='242.00000,62.00000' b='242.00000,80.00000'/>
-		<WIRE a='196.00000,62.00000' b='203.00000,62.00000'/>
+		<WIRE a='196.00000,62.00000' b='197.00000,62.00000'/>
 		<JUNCTION pos='119.00000,98.00000'/>
 		<JUNCTION pos='63.00000,71.00000'/>
 		<JUNCTION pos='74.00000,71.00000'/>
@@ -2671,9 +2601,13 @@ F$E(%$9&quot;0*HB A%1!!&quot;2DBO\/HV8G^KTF25(     245.1*Y&quot;8((
 		<NOCONNECT pos='200.00000,87.00000'/>
 		<JUNCTION pos='186.00000,98.00000'/>
 		<JUNCTION pos='186.00000,71.00000'/>
-		<SYMBOL id='13' pos='218.00000,56.00000' part='0' rotate='2' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
-			<FIELD type='0' description='Ref' value='T?' show='1' pos='-6.00000,2.00000'/>
+		<SYMBOL id='13' pos='217.00000,50.00000' part='0' rotate='2' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='0' description='Ref' value='T1' show='1' pos='-6.00000,2.00000'/>
 			<FIELD type='0' description='Name' value='T1' show='1' pos='-6.00000,-8.00000'/>
+			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='1' description='Package' value='package name for PCB layout' show='0' pos='0.00000,0.00000'/>
 		</SYMBOL>
+		<JUNCTION pos='211.00000,62.00000'/>
 	</TinyCAD>
 </TinyCADSheets>
