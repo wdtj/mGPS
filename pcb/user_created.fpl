@@ -1,20 +1,41 @@
-<<<<<<< HEAD
+name: "CTX20-1"
+units: NM
+sel_rect: -6342900 -6342900 6342900 6342900
+ref_text: 1270000 6500000 1500000 0 127000
+value_text: 2540000 -5500000 -9000000 0 254000
+centroid: 0 20000 20000 0
+outline_polyline: 177800 -6000000 6000000
+next_corner: 6000000 6000000 0
+next_corner: 6000000 -6000000 0
+next_corner: -6000000 -6000000 0
+close_polyline: 0
+n_pins: 4
+pin: "1" 0 -3500000 -3500000 270
+top_pad: 1 3690000 0 0 0
+pin: "2" 0 3540000 -3500000 270
+top_pad: 1 3690000 0 0 0
+pin: "3" 0 3540000 3540000 90
+top_pad: 1 3690000 0 0 0
+pin: "4" 0 -3500000 3540000 90
+top_pad: 1 3690000 0 0 0
+
 name: "SMB403A"
-  units: NM
-  sel_rect: -1752600 -2044600 6172600 2044600
-  ref_text: 1270000 1105000 0 0 127000
-  value_text: 2540000 2540000 0 0 254000
-  centroid: 0 2210000 0 0
-  outline_polyline: 177800 -1409700 -1701700
-    next_corner: 5829700 -1701700 0
-    next_corner: 5829700 1701700 0
-    next_corner: -1409700 1701700 0
-    close_polyline: 0
-  n_pins: 2
-    pin: "1" 0 0 0 270
-      top_pad: 3 2159000 1371500 1371500 0
-    pin: "2" 0 4420000 0 270
-      top_pad: 3 2159000 1371500 1371500 0
+units: NM
+sel_rect: -1752600 -2044600 6172600 2917090
+ref_text: 1270000 1105000 0 0 127000
+value_text: 2540000 2540000 0 0 254000
+centroid: 0 2210000 0 0
+text: "-" 1000000 4500000 2000000 0 254000 0 4
+outline_polyline: 177800 -1409700 -1701700
+next_corner: 5829700 -1701700 0
+next_corner: 5829700 1701700 0
+next_corner: -1409700 1701700 0
+close_polyline: 0
+n_pins: 2
+pin: "1" 0 0 0 270
+top_pad: 3 2159000 1371500 1371500 0
+pin: "2" 0 4420000 0 270
+top_pad: 3 2159000 1371500 1371500 0
 
 name: "TANT_D-2"
 author: "Ivex, Allan Wright"
@@ -152,37 +173,39 @@ pin: "G4" 0 3750000 0 90
 top_pad: 3 1900000 950000 950000 0 1
 
 name: "KS1043"
-units: MIL
-sel_rect: -1532 -421.5 1532 421.5
-ref_text: 100 -1322.5 200 0 10
-value_text: 100 -1322.5 0 0 10
-centroid: 0 -1422.5 0 0
-outline_polyline: 10 -1517 -406.5
-next_corner: 1517 -406.5 0
-next_corner: 1517 406.5 0
-next_corner: -1517 406.5 0
-close_polyline: 0
-n_pins: 5
-pin: "1" 52 -1423 0 0
-top_pad: 1 150 0 0 0
-inner_pad: 0 0 0 0 0 0
-bottom_pad: 1 150 0 0 0
-pin: "2" 52 1423 0 0
-top_pad: 1 150 0 0 0
-inner_pad: 0 0 0 0 0 0
-bottom_pad: 1 150 0 0 0
-pin: "H1" 140 -1087.5 -315 0
-top_pad: 0 100 0 0 0
-inner_pad: 0 0 0 0 0 0
-bottom_pad: 0 100 0 0 0
-pin: "H2" 140 1087.5 315 0
-top_pad: 0 100 0 0 0
-inner_pad: 0 0 0 0 0 0
-bottom_pad: 0 100 0 0 0
-pin: "H3" 94 1422.5 -315 0
-top_pad: 0 100 0 0 0
-inner_pad: 0 0 0 0 0 0
-bottom_pad: 0 100 0 0 0
+  units: MIL
+  sel_rect: -1535.748031 -421.5 1532 554.574055
+  ref_text: 100 -1322.5 200 0 10
+  value_text: 100 -1322.5 0 0 10
+  centroid: 0 -1422.5 0 0
+  text: "+" 100 -1515.748031 452.755906 0 10 0 4
+  text: "-" 100 1417.322835 433.070866 0 10 0 4
+  outline_polyline: 10 -1517 -406.5
+    next_corner: 1517 -406.5 0
+    next_corner: 1517 406.5 0
+    next_corner: -1517 406.5 0
+    close_polyline: 0
+  n_pins: 5
+    pin: "1" 52 -1423 0 0
+      top_pad: 1 150 0 0 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 150 0 0 0
+    pin: "2" 52 1423 0 0
+      top_pad: 1 150 0 0 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 150 0 0 0
+    pin: "H1" 140 -1087.5 -315 0
+      top_pad: 0 100 0 0 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 0 100 0 0 0
+    pin: "H2" 140 1087.5 315 0
+      top_pad: 0 100 0 0 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 0 100 0 0 0
+    pin: "H3" 94 1422.5 -315 0
+      top_pad: 0 100 0 0 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 0 100 0 0 0
 
 name: "pin"
 units: MIL
